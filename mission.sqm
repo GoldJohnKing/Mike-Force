@@ -196,7 +196,7 @@ dlcs[]=
 randomSeed=7860927;
 class ScenarioData
 {
-	author="Savage Game Design";
+	author="Alonecity 汉化, Savage Game Design";
 	briefing=0;
 	debriefing=0;
 	saving=0;
