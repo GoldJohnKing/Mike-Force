@@ -8,7 +8,7 @@ class Header
 	maxPlayers = 32; //Do not exceed 32 players, as it begins to degrade balance and performance.
 };
 respawn = "BASE";
-respawnDelay = 20;
+respawnDelay = 8; // Edited: Decrease respawn delay, default = 20
 respawnDialog = 0;
 respawnButton = 1;
 respawnOnStart = -1;
