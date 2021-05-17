@@ -28,8 +28,10 @@ scriptedPlayer = 0;
 disableChannels[]=  // allow text only on side chat
 {
 	{0,true,true},
-	{1,false,true},
+	// {1,false,true}, // Edited: Allow side channel
 	{2,true,true},
+	{4,true,true}, // Edited: Disable vehicle channel
+	{5,true,false}, // Edited: Disable direct channel text chat
 	{6,true,true}
 };
 enableItemsDropping = 0;

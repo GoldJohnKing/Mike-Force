@@ -55,3 +55,7 @@ player enableSimulation false;
 // Start loading screen, so we wait while server init completes.
 startLoadingScreen ["Welcome to Mike Force!", "MikeForce_loadingScreen"];
 [selectRandom (getArray(missionConfigFile >> "gamemode" >> "loadingScreens" >> "images")),5002] call vn_mf_fnc_update_loading_screen;
+
+// Edited: Toggle radio channel on player getting in/out vehicles
+player addEventHandler ["GetInMan", {4 enableChannel true;}];
+player addEventHandler ["GetOutMan", {4 enableChannel false;}];
