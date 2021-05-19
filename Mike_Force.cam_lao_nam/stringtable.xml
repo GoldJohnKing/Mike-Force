@@ -4,7 +4,7 @@
     <Container name="default">
       <Key ID="STR_vn_mf_levelup">
         <Original>LEVEL UP!</Original>
-        <Chinesesimp>晋升！</Chinesesimp>
+        <Chinesesimp>晋升!</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_rankpoint_short">
         <Original>RP</Original>
@@ -32,7 +32,7 @@
       </Key>
       <Key ID="STR_vn_mf_needtobeengineer">
         <Original>You must be an %1 to build, please see a Duty Officer.</Original>
-        <Chinesesimp>你必须成为 %1 才能进行建造，请拜访执勤官。</Chinesesimp>
+        <Chinesesimp>你必须成为 %1 才能进行建造, 请拜访执勤官。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_medic">
         <Original>Medic</Original>
@@ -64,7 +64,7 @@
       </Key>
       <Key ID="STR_vn_mf_nosupplydropnearby">
         <Original>No supplies nearby!</Original>
-        <Chinesesimp>附近没有补给！</Chinesesimp>
+        <Chinesesimp>附近没有补给!</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_invite">
         <Original>Invite %1</Original>
@@ -92,7 +92,7 @@
       </Key>
       <Key ID="STR_vn_mf_supplydroponstandby">
         <Original>Supply drops on standby, make sure no other supplies are near drop zone.</Original>
-        <Chinesesimp>空投补给已就绪，请确保空投区域附近没有其他补给。</Chinesesimp>
+        <Chinesesimp>空投补给已就绪, 请确保空投区域附近没有其他补给。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_situation_room">
         <Original>Situation Room</Original>
@@ -464,19 +464,19 @@
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_MikeForceDescription">
         <Original>As special forces infantry, your team's role is to:&lt;br/&gt;- Sweep and clear areas of enemy&lt;br/&gt;- Secure and hold zones&lt;br/&gt;- Protect populations, logistics and supplies&lt;br/&gt;- Reinforce other teams&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example transport is provided for you by ACAV or Green Hornets.</Original>
-        <Chinesesimp>作为特种部队的步兵, 你方团队的任务是:&lt;br/&gt;- 扫荡并清除敌占区&lt;br/&gt;- 确保区域安全并驻守&lt;br/&gt;- 保卫人员、后勤和补给&lt;br/&gt;- 支援其他小队&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务由其他需要帮助的队伍生成。你也可以请求其他队伍的支援，比如由 ACAV 或 Green Hornets 提供的运输支援。</Chinesesimp>
+        <Chinesesimp>作为特种部队的步兵, 你方团队的任务是:&lt;br/&gt;- 扫荡并清除敌占区&lt;br/&gt;- 确保区域安全并驻守&lt;br/&gt;- 保卫人员、后勤和补给&lt;br/&gt;- 支援其他小队&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务由其他需要帮助的队伍生成。你也可以请求其他队伍的支援, 比如由 ACAV 或 Green Hornets 提供的运输支援。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_SpikeTeamDescription">
         <Original>As special forces recon, your team's role is to:&lt;br/&gt;- Carry out reconnaissance to locate enemy infrastructure&lt;br/&gt;- Ambush and assault the enemy&lt;br/&gt;- Direct air and armour support onto enemy concentrations&lt;br/&gt;- Support other teams with reconnaissance and search and rescue&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams. &lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example transport is provided for you by ACAV or Green Hornets.</Original>
-        <Chinesesimp>作为特种部队的侦察兵，你方团队的任务是:&lt;br/&gt;- 侦查并确定敌方基础设施位置&lt;br/&gt;- 伏击和袭击敌军&lt;br/&gt;- 指引空军和装甲支援部队前往敌方驻地&lt;br/&gt;- 支援其他队伍进行侦察、搜索和救援&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务是由其他需要你帮助的小队呼叫申请生成。当然，你也可以请求他们来支援，比如由 ACAV 或 Green Hornets 提供的运输支援。</Chinesesimp>
+        <Chinesesimp>作为特种部队的侦察兵, 你方团队的任务是:&lt;br/&gt;- 侦查并确定敌方基础设施位置&lt;br/&gt;- 伏击和袭击敌军&lt;br/&gt;- 指引空军和装甲支援部队前往敌方驻地&lt;br/&gt;- 支援其他队伍进行侦察、搜索和救援&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务是由其他需要你帮助的小队呼叫申请生成。当然, 你也可以请求他们来支援, 比如由 ACAV 或 Green Hornets 提供的运输支援。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_GreenHornetsTeamDescription">
         <Original>As a Green Hornet, your team's role is to fly helicopters and jets to:&lt;br/&gt;- Insert and extract troops to their desired location&lt;br/&gt;- Carry out aerial reconnaissance to find enemy infrastructure&lt;br/&gt;- Support other teams with close air support&lt;br/&gt;- Deliver supplies to build new infrastructure&lt;br/&gt;- Engage enemy aircraft&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example search and rescue is provided for you by Spike Team.</Original>
-        <Chinesesimp>作为 Green Hornet 的成员，你方团队的任务是驾驶直升机和喷气式飞机:&lt;br/&gt;- 在指定地点投送或撤离部队&lt;br/&gt;- 执行空中侦察以寻找敌方基础设施&lt;br/&gt;- 通过近距离空中支援来支援其他队伍&lt;br/&gt;- 投送补给来建造新的基础设施&lt;br/&gt;- 与敌机交战&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务由其他需要帮助的队伍生成。你也可以请求其他队伍的支援，比如由 Spike Team 提供的搜索和救援支援。</Chinesesimp>
+        <Chinesesimp>作为 Green Hornet 的成员, 你方团队的任务是驾驶直升机和喷气式飞机:&lt;br/&gt;- 在指定地点投送或撤离部队&lt;br/&gt;- 执行空中侦察以寻找敌方基础设施&lt;br/&gt;- 通过近距离空中支援来支援其他队伍&lt;br/&gt;- 投送补给来建造新的基础设施&lt;br/&gt;- 与敌机交战&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务由其他需要帮助的队伍生成。你也可以请求其他队伍的支援, 比如由 Spike Team 提供的搜索和救援支援。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_ArmouredCavalryDescription">
         <Original>As Armoured Cavalry, your team's role is to operate trucks and tanks to:&lt;br/&gt;- Insert and extract troops to their desired location&lt;br/&gt;- Support other teams with heavy weapons vehicles&lt;br/&gt;- Deliver supplies and build new infrastructure&lt;br/&gt;- Engage enemy vehicles and armour&lt;br/&gt;Tasks&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; Primary Tasks are shared by all teams. &lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; Secondary Tasks are unique to your team.&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; Support Tasks are called by other teams in need of your help. You may also request their support, for example vehicle recovery or convoy protection is provided for you by Green Hornets.</Original>
-        <Chinesesimp>作为装甲骑兵，你方团队的任务是驾驶卡车和坦克:&lt;br/&gt;- 在指定地点投送或撤离部队&lt;br/&gt;- 使用带有重型武器的载具支援其他队伍&lt;br/&gt;- 投送补给并建造新的基础设施&lt;br/&gt;- 与敌方载具和装甲车交战&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务由其他需要帮助的队伍生成。你也可以请求其他队伍的支援，比如由 Green Hornets 提供的载具回收和车队保护支援。</Chinesesimp>
+        <Chinesesimp>作为装甲骑兵, 你方团队的任务是驾驶卡车和坦克:&lt;br/&gt;- 在指定地点投送或撤离部队&lt;br/&gt;- 使用带有重型武器的载具支援其他队伍&lt;br/&gt;- 投送补给并建造新的基础设施&lt;br/&gt;- 与敌方载具和装甲车交战&lt;br/&gt;任务&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_primary.paa'/&gt; 主要任务由所有团队共享。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_secondary.paa'/&gt; 次要任务由你的团队独有。&lt;br/&gt;- &lt;img color='#CC000000' image='\vn\ui_f_vietnam\ui\taskroster\img\icons\vn_icon_task_support.paa'/&gt; 支援任务由其他需要帮助的队伍生成。你也可以请求其他队伍的支援, 比如由 Green Hornets 提供的载具回收和车队保护支援。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_rolesHeaderName">
         <Original>Role</Original>
@@ -492,7 +492,7 @@
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_medicTasks">
         <Original>Healing, Humanitarian</Original>
-        <Chinesesimp>医疗，人道主义</Chinesesimp>
+        <Chinesesimp>医疗, 人道主义</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_engineerTasks">
         <Original>Building</Original>
@@ -512,11 +512,11 @@
       </Key>
       <Key ID="STR_vn_mf_taskRoster_Main_teamWelcome">
         <Original>Welcome to:&lt;br/&gt;%1</Original>
-        <Chinesesimp>欢迎来到：&lt;br/&gt;%1</Chinesesimp>
+        <Chinesesimp>欢迎来到: &lt;br/&gt;%1</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_title">
         <Original>Resupply: Ammo</Original>
-        <Chinesesimp>补给：弹药</Chinesesimp>
+        <Chinesesimp>补给: 弹药</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_desc">
         <Original>Transport the supplies to the position provided by %1.</Original>
@@ -536,7 +536,7 @@
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_medical_title">
         <Original>Resupply: Medical</Original>
-        <Chinesesimp>补给：医疗</Chinesesimp>
+        <Chinesesimp>补给: 医疗</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_medical_requesterDesc">
         <Original>Request medical supplies be dropped at a specific location.</Original>
@@ -544,7 +544,7 @@
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_food_title">
         <Original>Resupply: Food</Original>
-        <Chinesesimp>补给：食物</Chinesesimp>
+        <Chinesesimp>补给: 食物</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_food_requesterDesc">
         <Original>Request food supplies be dropped at a specific location.</Original>
@@ -552,7 +552,7 @@
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_building_materials_title">
         <Original>Resupply: Building Materials</Original>
-        <Chinesesimp>补给：建筑材料</Chinesesimp>
+        <Chinesesimp>补给: 建筑材料</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_building_materials_requesterDesc">
         <Original>Request building materials be dropped at a specific location.</Original>
@@ -560,7 +560,7 @@
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_workshop_title">
         <Original>Resupply: Workshop</Original>
-        <Chinesesimp>补给：车间</Chinesesimp>
+        <Chinesesimp>补给: 车间</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_task_support_resupply_workshop_requesterDesc">
         <Original>Request workshop supplies be dropped at a specific location.</Original>
@@ -583,7 +583,7 @@
       </Key>
       <Key ID="STR_vn_mf_overlay_duty_officer_description">
         <Original>Change teams or train in a role, such as engineer.</Original>
-        <Chinesesimp>更换队伍或培训成为某类兵种，比如工兵。</Chinesesimp>
+        <Chinesesimp>更换队伍或培训成为某类兵种, 比如工兵。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_overlay_fast_travel_name">
         <Original>Fast Travel</Original>
@@ -599,11 +599,11 @@
       </Key>
       <Key ID="STR_vn_mf_overlay_supply_officer_description">
         <Original>Request supplies, such as building supplies, food or ammunition.</Original>
-        <Chinesesimp>请求补给，比如建筑物资、食物或弹药。</Chinesesimp>
+        <Chinesesimp>请求补给, 比如建筑物资、食物或弹药。</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_buildable_base">
         <Original>Base: %1</Original>
-        <Chinesesimp>基地：%1</Chinesesimp>
+        <Chinesesimp>基地: %1</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_buildable_standalone">
         <Original>Standalone</Original>
@@ -611,27 +611,27 @@
       </Key>
       <Key ID="STR_para_overlay_buildable_status">
         <Original>Status: %1</Original>
-        <Chinesesimp>状况：%1</Chinesesimp>
+        <Chinesesimp>状况: %1</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_buildable_build_progress">
         <Original>Build Progress: %2%1</Original>
-        <Chinesesimp>建造进度：%2%1</Chinesesimp>
+        <Chinesesimp>建造进度: %2%1</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_buildable_percentage_filled">
         <Original>Percentage Filled: %2%1</Original>
-        <Chinesesimp>填充百分比：%2%1</Chinesesimp>
+        <Chinesesimp>填充百分比: %2%1</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_buildable_current_supplies">
         <Original>Current Supplies: %1</Original>
-        <Chinesesimp>当前补给：%1</Chinesesimp>
+        <Chinesesimp>当前补给: %1</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_buildable_supplies_until_full">
         <Original>Supplies Until Full: %1</Original>
-        <Chinesesimp>距离补给装满还有：%1</Chinesesimp>
+        <Chinesesimp>距离补给装满还有: %1</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_buildable_lifetime">
         <Original>Time Until Decay: %1 hours %2 minutes</Original>
-        <Chinesesimp>距离损毁的时间：%1小时 %2分钟</Chinesesimp>
+        <Chinesesimp>距离损毁的时间: %1小时 %2分钟</Chinesesimp>
       </Key>
       <Key ID="STR_para_overlay_good">
         <Original>Good</Original>
@@ -702,7 +702,7 @@
       <Key ID="STR_vn_mf_notification_desc_counter_attack_imminent">
         <Original>Enemy counter-attack is imminent!</Original>
         <English>Enemy counter-attack is imminent!</English>
-        <Chinesesimp>敌军的反攻正在迫近！</Chinesesimp>
+        <Chinesesimp>敌军的反攻正在迫近!</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_notification_title_base_attack">
         <Original>FOB Attack</Original>
@@ -712,17 +712,17 @@
       <Key ID="STR_vn_mf_notification_desc_base_attack_preparing">
         <Original>The enemy will attack an FOB in %2 minutes</Original>
         <English>The enemy will attack an FOB in %2 minutes</English>
-        <Chinesesimp>敌军将在%2分钟内对FOB发起攻击！</Chinesesimp>
+        <Chinesesimp>敌军将在%2分钟内对FOB发起攻击!</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_base_attack_imminent">
         <Original>Enemy attack on FOB is imminent!</Original>
         <English>Enemy attack on FOB is imminent!</English>
-        <Chinesesimp>进攻FOB的敌军正在迫近！</Chinesesimp>
+        <Chinesesimp>进攻FOB的敌军正在迫近!</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_counter_attack_shortened">
         <Original>All critical tasks completed. Enemy counter attack in %2 minutes.</Original>
         <English>All critical tasks completed. Enemy counter attack in %2 minutes.</English>
-        <Chinesesimp>所有关键任务已完成。敌军将在%2分钟内发起反攻！</Chinesesimp>
+        <Chinesesimp>所有关键任务已完成。敌军将在%2分钟内发起反攻!</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_notification_desc_no_sandbag">
         <Original>No sandbags in inventory</Original>
@@ -764,7 +764,7 @@
       <Key ID="STR_para_building_hint_body">
         <Original>&lt;t color='#23aa50'&gt;[LMB]/[RMB]&lt;/t&gt; to cycle placement mode.&lt;br/&gt;&lt;br/&gt;Building can be placed with the 'build' action when the building is green. Buildings must not be colliding, and must be placed on a surface.</Original>
         <English>&lt;t color='#23aa50'&gt;[LMB]/[RMB]&lt;/t&gt; to cycle placement mode.&lt;br/&gt;&lt;br/&gt;Building can be placed with the 'build' action when the building is green. Buildings must not be colliding, and must be placed on a surface.</English>
-        <Chinesesimp>&lt;t color='#23aa50'&gt;使用[鼠标左键]/[鼠标右键]&lt;/t&gt;循环摆放模式。&lt;br/&gt;&lt;br/&gt;当建筑物显示为绿色时，可以使用'建造'动作摆放建筑。建筑物不得产生碰撞，且必须位于平面上。</Chinesesimp>
+        <Chinesesimp>&lt;t color='#23aa50'&gt;使用[鼠标左键]/[鼠标右键]&lt;/t&gt;循环摆放模式。&lt;br/&gt;&lt;br/&gt;当建筑物显示为绿色时, 可以使用'建造'动作摆放建筑。建筑物不得产生碰撞, 且必须位于平面上。</Chinesesimp>
       </Key>
       <Key ID="STR_para_building_placing_in_progress">
         <Original>Placing Building</Original>
@@ -842,12 +842,12 @@
       <Key ID="STR_vn_mf_buildingMenu_category">
         <Original>Category:</Original>
         <English>Category:</English>
-        <Chinesesimp>类别：</Chinesesimp>
+        <Chinesesimp>类别: </Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_search">
         <Original>Search:</Original>
         <English>Search:</English>
-        <Chinesesimp>搜素：</Chinesesimp>
+        <Chinesesimp>搜素: </Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_showLocked">
         <Original>Show Locked:</Original>
@@ -875,7 +875,7 @@
       <Key ID="STR_vn_mf_param_wipe_save_desc">
         <Original>[WARNING] Deletes your saved game. This will delete all progress (ranks and map)!</Original>
         <English>[WARNING] Deletes your saved game. This will delete all progress (ranks and map)!</English>
-        <Chinesesimp>[警告] 删除你的游戏存档。这将删除所有进度(包含军衔和地图)！</Chinesesimp>
+        <Chinesesimp>[警告] 删除你的游戏存档。这将删除所有进度(包含军衔和地图)!</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_param_enable_ranks">
         <Original>==== Enable Rank System [Under Development] ====</Original>
@@ -944,7 +944,7 @@
       <Key ID="STR_vn_mf_always_allow_withstand_desc">
         <Original>Toggles whether withstand is always available, or only when alone.</Original>
         <English>Toggles whether withstand is always available, or only when alone.</English>
-        <Chinesesimp>切换挣扎起身是否始终可用，或只在孤立无援时可用。</Chinesesimp>
+        <Chinesesimp>切换挣扎起身是否始终可用, 或只在孤立无援时可用。</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_building_sandbag_value">
         <Original>==== Sandbag Supplies Quantity ====</Original>
@@ -966,7 +966,7 @@
       <Key ID="STR_vn_mf_voteMenu_selectOption">
         <Original>Please select an option:</Original>
         <English>Please select an option:</English>
-        <Chinesesimp>请选择一个选项：</Chinesesimp>
+        <Chinesesimp>请选择一个选项: </Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_voteMenu_voteInitBody">
         <Original>A vote has been initalized. For more details please open the menu.</Original>
@@ -1018,22 +1018,22 @@
       <Key ID="STR_vn_mf_buildingMenu_category_base_starter">
         <Original>+Feature: HQ</Original>
         <English>+Feature: HQ</English>
-        <Chinesesimp>+特性：基地</Chinesesimp>
+        <Chinesesimp>+特性: 基地</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_respawn">
         <Original>+Feature: Respawn</Original>
         <English>+Feature: Respawn</English>
-        <Chinesesimp>+特性：重生</Chinesesimp>
+        <Chinesesimp>+特性: 重生</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_maintenance">
         <Original>+Feature: Maintenance</Original>
         <English>+Feature: Maintenance</English>
-        <Chinesesimp>+特性：维修保养</Chinesesimp>
+        <Chinesesimp>+特性: 维修保养</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_vehicle_spawning">
         <Original>+Feature: Vehicle Creation</Original>
         <English>+Feature: Vehicle Creation</English>
-        <Chinesesimp>+特性：载具生成</Chinesesimp>
+        <Chinesesimp>+特性: 载具生成</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_functional">
         <Original>Special Buildings</Original>
