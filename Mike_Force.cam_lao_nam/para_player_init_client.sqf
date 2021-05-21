@@ -107,7 +107,7 @@ if (!isServer) then {
 };
 
 // Set up automatic view distance scaling for performance
-[] call para_c_fnc_perf_enable_dynamic_view_distance;
+[] call para_c_fnc_perf_enable_dynamic_view_distance; // Edited: Disable dynamic view distance change according to fps
 
 // starting rank
 vn_mf_starting_rank = player getVariable ["vn_mf_db_rank",0];
