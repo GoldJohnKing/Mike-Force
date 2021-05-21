@@ -103,25 +103,25 @@ private _fnc_processVehicle = {
 			};
 		};
 
-		if (
-			// vehicle isn't locked
-			!(_vehicle getVariable ["vn_mf_g_veh_asset_locked", false]) && 
-			// we've waited long enough since being idle
-			(serverTime - (call _fnc_getState select 1)) > vn_mf_veh_asset_relock_time &&
-			// we haven't just toggled the vehicle lock
-			(serverTime - (_vehicle getVariable ["vn_mf_g_veh_asset_lock_last_toggled", 0])) > vn_mf_veh_asset_relock_time &&
-			// we're near to a surface
-			getPosATL _vehicle select 2 < 2 &&
-			// no crew
-			crew _vehicle isEqualTo [] &&
-			// vehicle is in a valid place to lock
-			{
-				vn_mf_veh_asset_lock_all_idle_vehicles ||
-				{ vn_mf_veh_asset_lock_idle_vehicle_markers findIf {_vehicle inArea _x} > -1 }
-			}
-		) then {
-			[_id] call vn_mf_fnc_veh_asset_lock_vehicle;
-		};
+		// if ( // Edited: Disable vehicle lock
+		// 	// vehicle isn't locked
+		// 	!(_vehicle getVariable ["vn_mf_g_veh_asset_locked", false]) && 
+		// 	// we've waited long enough since being idle
+		// 	(serverTime - (call _fnc_getState select 1)) > vn_mf_veh_asset_relock_time &&
+		// 	// we haven't just toggled the vehicle lock
+		// 	(serverTime - (_vehicle getVariable ["vn_mf_g_veh_asset_lock_last_toggled", 0])) > vn_mf_veh_asset_relock_time &&
+		// 	// we're near to a surface
+		// 	getPosATL _vehicle select 2 < 2 &&
+		// 	// no crew
+		// 	crew _vehicle isEqualTo [] &&
+		// 	// vehicle is in a valid place to lock
+		// 	{
+		// 		vn_mf_veh_asset_lock_all_idle_vehicles ||
+		// 		{ vn_mf_veh_asset_lock_idle_vehicle_markers findIf {_vehicle inArea _x} > -1 }
+		// 	}
+		// ) then {
+		// 	[_id] call vn_mf_fnc_veh_asset_lock_vehicle;
+		// };
 	};
 
 	//Update lock status, if a vehicle was unlocked but left idle
