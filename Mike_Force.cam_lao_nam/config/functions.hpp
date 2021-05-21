@@ -313,4 +313,6 @@ class CfgFunctions
 			class vn_mf_RscDisplayExample;
 		};
 	};
+
+	#include "..\Custom\CHVD\chvd_functions.hpp" // Edited: Add CH View Distance
 };
