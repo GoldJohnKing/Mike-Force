@@ -19,8 +19,8 @@ OnLoadIntro = "欢迎来到越南"; // Edited: Change mission info, default = "W
 loadScreen = "img\vn_mf_loadscreen.jpg";
 OnLoadIntroTime = 0;
 OnLoadMissionTime = 0;
-briefingName = "[汉化版]Mike_Force_越南战争"; // Edited: Change mission info, default = QUOT(Mike Force (Beta VN_MF_VERSION));
-onLoadName = "[汉化版]Mike_Force_越南战争"; // Edited: Change mission info, default = QUOT(Mike Force (Beta VN_MF_VERSION));
+briefingName = "Mike_Force_越南战争_汉化版"; // Edited: Change mission info, default = QUOT(Mike Force (Beta VN_MF_VERSION));
+onLoadName = "Mike_Force_越南战争_汉化版"; // Edited: Change mission info, default = QUOT(Mike Force (Beta VN_MF_VERSION));
 overviewPicture = "img\vn_mf_loadscreen.jpg";
 
 disabledAI = 1;
@@ -31,7 +31,6 @@ disableChannels[]=  // allow text only on side chat
 	// {1,false,true}, // Edited: Allow side channel
 	{2,true,true},
 	{4,true,true}, // Edited: Disable vehicle channel
-	{5,true,false}, // Edited: Disable direct channel text chat
 	{6,true,true}
 };
 enableItemsDropping = 0;
