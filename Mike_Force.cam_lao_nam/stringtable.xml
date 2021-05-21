@@ -1344,11 +1344,8 @@
       </Key>
     </Container>
   </Package>
-</Project>
-
-<!-- Edited: Add CH View Distance -->
-<Project name="CH View Distance">
-  <Package name="Main">
+  <!-- Edited: Add CH View Distance -->
+  <Package name="CH_View_Distance">
     <Key ID="STR_chvd_title">
       <Original>视野距离设置</Original>
     </Key>
@@ -1383,7 +1380,7 @@
       <Original>动态</Original>
     </Key>
 		<Key ID="STR_chvd_fov">
-      <Original>FOV</Original>
+      <Original>视野角度</Original>
     </Key>
     <Key ID="STR_chvd_low">
       <Original>低</Original>
@@ -1421,5 +1418,5 @@
     <Key ID="STR_chvd_terrainGrid">
       <Original>地形网格</Original>
     </Key>		
-  </package>
+  </Package>
 </Project>
