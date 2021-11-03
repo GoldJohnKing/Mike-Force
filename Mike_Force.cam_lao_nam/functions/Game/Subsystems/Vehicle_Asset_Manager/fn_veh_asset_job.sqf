@@ -112,6 +112,10 @@ private _fnc_processVehicle = {
 			(serverTime - (_vehicle getVariable ["vn_mf_g_veh_asset_lock_last_toggled", 0])) > vn_mf_veh_asset_relock_time &&
 			// we're near to a surface
 			getPosATL _vehicle select 2 < 2 &&
+			// have zero velocity
+			vectorMagnitude velocity _vehicle < 1 &&
+			//check that the vic is not slingloaded
+			isNull ropeAttachedTo _vehicle &&
 			// no crew
 			crew _vehicle isEqualTo [] &&
 			// vehicle is in a valid place to lock

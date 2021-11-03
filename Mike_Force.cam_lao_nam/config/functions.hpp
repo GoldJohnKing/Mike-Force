@@ -87,6 +87,7 @@ class CfgFunctions
 			class player_health_stats {};
 			class player_within_radius {};
 			class save_time_elapsed {};
+			class override_crate_contents {};
 
 			// stats
 			class change_player_stat {};

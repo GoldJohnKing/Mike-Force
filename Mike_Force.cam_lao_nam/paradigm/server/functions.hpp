@@ -97,6 +97,13 @@ class para_s
 		class bf_maintenance_repair_vehicle {};
 	};
 
+	class building_features_radio
+	{
+		PARA_SERVER_PATH(\building_features\radio);
+		class bf_radio_on_functional {};
+		class bf_radio_on_nonfunctional {};
+	};
+
 	class building_features_respawn
 	{
 		PARA_SERVER_PATH(\building_features\respawn);
@@ -207,5 +214,11 @@ class para_s
 		class create_vote {};
 		class finish_vote {};
 		class submit_vote {};
+	};
+
+	class tools
+	{
+		PARA_SERVER_PATH(\tools);
+		class fell_tree {};  // needs to stay on server
 	};
 };

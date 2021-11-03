@@ -18,5 +18,3 @@ class teams
 
 snakebitechance[] = {0.5,1};  // 50% chance to get bit if closer than 1m, 0.1 = 10%
 snakebitefrequency[] = {300,300}; // Restrict snakes to biting once every 600s, with another 300s of reduced chance.
-
-dbprefix = "mf_db_";

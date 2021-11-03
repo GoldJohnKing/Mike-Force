@@ -173,6 +173,18 @@
       <Key ID="STR_vn_mf_respawn_acav">
         <Original>FOB 5 BAN ME THUOT - ACAV</Original>
       </Key>
+      <Key ID="STR_vn_mf_respawn_mike_force_khe_sanh">
+        <Original>KHE SANH SF CAMP - MIKE FORCE</Original>
+      </Key>
+      <Key ID="STR_vn_mf_respawn_green_hornets_khe_sanh">
+        <Original>KHE SANH SF CAMP - GREEN HORNETS</Original>
+      </Key>
+      <Key ID="STR_vn_mf_respawn_spike_team_khe_sanh">
+        <Original>KHE SANH SF CAMP - SPIKE TEAM</Original>
+      </Key>
+      <Key ID="STR_vn_mf_respawn_acav_khe_sanh">
+        <Original>KHE SANH SF CAMP - ACAV</Original>
+      </Key>
       <Key ID="STR_vn_mf_supply_officer">
         <Original>Supply Officer</Original>
       </Key>
@@ -679,10 +691,6 @@
         <Original>[High performance impact] The maximum number of AI the mission will ever have simultaneously.</Original>
         <English>[High performance impact] The maximum number of AI the mission will ever have simultaneously.</English>
       </Key>
-      <Key ID="STR_vn_mf_param_enable_ranks">
-        <Original>==== Enable Rank System [Under Development] ====</Original>
-        <English>==== Enable Rank System [Under Development] ====</English>
-      </Key>
       <Key ID="STR_vn_mf_param_enable_ranks_desc">
         <Original>Restrict vehicles/weapons based on rank. Recommended to reduce griefing.</Original>
         <English>Restrict vehicles/weapons based on rank. Recommended to reduce griefing.</English>
@@ -705,7 +713,7 @@
       </Key>
       <Key ID="STR_vn_mf_buildables_require_vehicles">
         <Original>==== Resupply buildings require vehicles ====</Original>
-        <English>==== Resupply buildings require vehicles ====</Original>
+        <English>==== Resupply buildings require vehicles ====</English>
       </Key>
       <Key ID="STR_vn_mf_buildables_require_vehicles_desc">
         <Original>Should vehicles be required to build resupply buildings [Not Advised].</Original>
@@ -782,6 +790,10 @@
         <Original>+Feature: HQ</Original>
         <English>+Feature: HQ</English>
       </Key>
+      <Key ID="STR_vn_mf_buildingMenu_category_radio">
+        <Original>+Feature: Music</Original>
+        <English>+Feature: Music</English>
+      </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_respawn">
         <Original>+Feature: Respawn</Original>
         <English>+Feature: Respawn</English>
@@ -831,8 +843,8 @@
         <English>Bridges</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_trees">
-        <Original>Bridges</Original>
-        <English>Bridges</English>
+        <Original>Trees</Original>
+        <English>Trees</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_bunkers">
         <Original>Bunkers</Original>
@@ -851,8 +863,8 @@
         <English>Helipads</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_shelters">
-        <Original>Shelters</Original>
-        <English>Shelters</English>
+        <Original>Camp (PAVN)</Original>
+        <English>Camp (PAVN)</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_nv">
         <Original>North Vietnamese</Original>
@@ -871,8 +883,8 @@
         <English>Caves and Rocks</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_decorative">
-        <Original>Decorative</Original>
-        <English>Decorative</English>
+        <Original>Misc</Original>
+        <English>Misc</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_lighting">
         <Original>Lighting</Original>
@@ -883,16 +895,16 @@
         <English>Platforms</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_fences">
-        <Original>Fences</Original>
-        <English>Fences</English>
+        <Original>Fences and walls</Original>
+        <English>Fences and walls</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_antennae">
         <Original>Antennae</Original>
         <English>Antennae</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_hootches">
-        <Original>Hootches</Original>
-        <English>Hootches</English>
+        <Original>Shacks</Original>
+        <English>Shacks</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_hangars">
         <Original>Hangars</Original>
@@ -922,10 +934,20 @@
         <Original>Spiderholes</Original>
         <English>Spiderholes</English>
       </Key>
+      <Key ID="STR_vn_mf_buildingMenu_category_storage">
+        <Original>Storage</Original>
+        <English>Storage</English>
+      </Key>
     </Container>
     <Container name="supplies">
       <Key ID="STR_vn_mf_ammo_supplies">
-        <Original>Ammo Supplies</Original>
+        <Original>Light Ammo Supplies</Original>
+      </Key>
+	  <Key ID="STR_vn_mf_support_supplies">
+        <Original>Support Ammo Supplies</Original>
+      </Key>
+	  <Key ID="STR_vn_mf_explosives_supplies">
+        <Original>Explosives Supplies</Original>
       </Key>
       <Key ID="STR_vn_mf_building_supplies_crate">
         <Original>Building Supplies (Small)</Original>

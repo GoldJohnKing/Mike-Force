@@ -19,7 +19,7 @@ class Spacer0
     title = "";
     values[] = {""};
     texts[] = {""};
-    default = ""
+    default = "";
 };
 
 class enable_ranks
@@ -27,7 +27,7 @@ class enable_ranks
     title = $STR_vn_mf_param_enable_ranks;
     values[] = {0, 1};
     texts[] = {"False", "True"};
-    default = 1;
+    default = 0;
 };
 
 class enable_ranks_desc

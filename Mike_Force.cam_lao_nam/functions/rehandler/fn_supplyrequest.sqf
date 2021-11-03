@@ -39,6 +39,10 @@ if !([_officer] inAreaArray [getPos _player, 20, 20, 0, false, 20] isEqualTo [])
 	private _object = createVehicle [getText (_dropConfig >> "className"), _spawnPos, [], 1, "NONE"];
 	_object setMass ((getMass _object) min 2500);
 	_object setVariable ["supply_drop_config", _dropConfig, true];
+	if (isText(_dropConfig >> "crateConfig")) then 
+	{
+		[_object, getText(_dropConfig >> "crateConfig"), true] call vn_mf_fnc_override_crate_contents;
+	};
 	[_object, false] call para_s_fnc_allow_damage_persistent;
 
 	[	

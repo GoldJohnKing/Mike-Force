@@ -88,10 +88,6 @@ class gamemode
 	{
 		#include "subconfigs\vehicle_respawn_info.hpp"
 	};
-	class zone_connections
-	{
-		#include "subconfigs\zone_connections.hpp"
-	};
 	class teleporters
 	{
 		#include "subconfigs\teleporters.hpp"
@@ -99,6 +95,10 @@ class gamemode
 	class interaction_overlay
 	{
 		#include "subconfigs\interaction_overlay.hpp"
+	};
+	class vehicles
+	{
+		#include "subconfigs\vehicles.hpp"
 	};
 
 	#include "subconfigs\units.hpp"

@@ -118,6 +118,9 @@ vn_mf_default_awards = [];
     vn_mf_default_awards pushBack [configName _x, -1];
 } forEach ("isClass(_x)" configClasses (missionConfigFile >> "gamemode" >> "awards_config"));
 
+// initialize tools controller
+call para_c_fnc_tool_controller_init;
+
 //LOADING COMPLETE
 //Start tidying up ready for play.
 

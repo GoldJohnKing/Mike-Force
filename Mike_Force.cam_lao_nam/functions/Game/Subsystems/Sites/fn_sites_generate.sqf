@@ -24,14 +24,18 @@ private _attempts = 3;
 private _zonesToGenerateIn = mf_s_zones select {!(_x select struct_zone_m_captured)};
 
 private _fnc_findPos = {
-	params ["_startPos", "_minDist", "_maxDist"];
-	private _result = _startPos;
-	for "_i" from 1 to _attempts do
-	{
-		_result = _startPos getPos [_minDist + random (_maxDist - _minDist), random 360];
-		if (!surfaceIsWater _result) exitWith {};
-	};
-	_result
+    params ["_startPos", "_minDist", "_maxDist"];
+    private _result = _startPos;
+    for "_i" from 1 to _attempts do
+    {
+        _attempt = _startPos getPos [_minDist + random (_maxDist - _minDist), random 360];
+        if (!surfaceIsWater _attempt) exitWith {
+            _result = _attempt;
+            break;
+        };
+
+    };
+    _result
 };
 
 {

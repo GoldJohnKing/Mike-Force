@@ -65,4 +65,15 @@ class CfgREHandler
 	{
 		fnc = "para_s_fnc_submit_vote";
 	};
+
+	class fell_tree
+	{
+		fnc = "para_s_fnc_fell_tree";
+	};
+
+	class operate_shovel
+	{
+		fnc = "para_s_fnc_operate_shovel";
+	};
+
 };

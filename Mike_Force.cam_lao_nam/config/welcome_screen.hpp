@@ -23,19 +23,6 @@ class ParaWelcomeScreen {
 
     class Changelog {
         title = "Mike Force - Changelog";
-        content[] = {
-			"<t align='center' size='1.5' font='RobotoCondensedBold'>Changelog</t>",
-			"<br/><br/>",
-			"<t align='center' size='1.2'>7th May 2021 - v0.65.03</t><br/>",
-			"<t align='center' font='RobotoCondensedLight'>Added 3 headless client slots</t><br/>",
-			"<t align='center' font='RobotoCondensedLight'>Scaled up the task roster</t><br/>",
-			"<t align='center' font='RobotoCondensedLight'>Added parameter to change the AI limit</t><br/>",
-			"<br/>",
-			"<t align='center' size='1.2'>7th May 2021 - v0.65.02</t><br/>",
-			"<t align='center' font='RobotoCondensedLight'>Reduced the mission to 32 slots (the number the mission is designed for)</t><br/>",
-			"<br/>",
-			"<t align='center' size='1.2'>6th May 2021 - v0.65.00</t><br/>",
-			"<t align='center' font='RobotoCondensedLight'>Initial Beta Release</t>"
-		};
+        content[] = {};
     };
 };

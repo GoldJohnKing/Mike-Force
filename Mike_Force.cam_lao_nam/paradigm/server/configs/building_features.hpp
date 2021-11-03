@@ -41,6 +41,12 @@ class CfgBuildingFeatures
 		onBuildingObjectsChanged = "para_s_fnc_bf_maintenance_on_building_objects_changed";
 	};
 
+	class radio
+	{
+		onBuildingFunctional = "para_s_fnc_bf_radio_on_functional";
+		onBuildingNonFunctional = "para_s_fnc_bf_radio_on_nonfunctional";
+	};
+
 	class respawn 
 	{
 		onBuildingFunctional = "para_s_fnc_bf_respawn_on_functional";

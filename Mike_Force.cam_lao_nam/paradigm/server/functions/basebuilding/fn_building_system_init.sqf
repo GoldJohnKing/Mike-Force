@@ -39,16 +39,5 @@ missionNamespace setVariable ["para_g_bases", [], true];
 //All buildings
 para_l_buildings = [];
 
-[missionNamespace, "vn_melee_attack", {
-	params ["_unit", "_hitPos", "_hitObject"];
-	private _building = _hitObject getVariable ["para_g_building", objNull];
-	//Commented out waiting on scripted handler being added to handgun weapons
-	if (!isNull _building && {currentWeapon _unit == "vn_m_shovel_01"}) exitWith {
-		["building_on_hit", [_building]] call para_c_fnc_call_on_server;
-		true
-	};
-	false
-}] remoteExec ["BIS_fnc_addScriptedEventHandler", 0, true];
-
 //Load any saved bases.
 [] call para_s_fnc_basebuilding_load;

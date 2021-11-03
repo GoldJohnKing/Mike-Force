@@ -22,7 +22,9 @@
 
 params ["_player", "_role", "_vehicle"];
 
-if (_role == "driver") exitWith {
+private _isCopilot = (getNumber ([_vehicle, _vehicle unitTurret _player] call BIS_fnc_turretConfig >> "isCopilot") > 0);
+
+if (_role == "driver" || _isCopilot) exitWith {
 	private _teamsVehicleIsLockedTo = _vehicle getVariable ["teamLock", []] apply {missionNamespace getVariable [_x, grpNull]};
 	if (_teamsVehicleIsLockedTo isEqualTo [] || group _player in _teamsVehicleIsLockedTo) exitWith {
 		true

@@ -32,6 +32,11 @@ para_s_perf_min_view_distance = 800 min viewDistance;
 para_s_perf_min_object_view_distance = 600 min (getObjectViewDistance select 0);
 
 private _script = {
+	private _enableMFViewDist = ["para_enableDynamicViewDist"] call para_c_fnc_optionsMenu_getValue;
+	if (_enableMFViewDist != 1) exitWith {};
+	
+	para_s_perf_fps_min = ["para_minFpsViewDist"] call para_c_fnc_optionsMenu_getValue;
+	para_s_perf_fps_min_to_scale_up_view = para_s_perf_fps_min + 6;
 	private _history = para_s_perf_fps_history;
 	_history pushBack diag_fps;
 	if (count _history > para_s_perf_fps_history_max_size) then {
@@ -49,9 +54,11 @@ private _script = {
 	};
 	if (_average > para_s_perf_fps_min_to_scale_up_view) then {
 		private _maxViewdist = ["para_maxViewdist"] call para_c_fnc_optionsMenu_getValue;
-		setObjectViewDistance (((getObjectViewDistance # 0) + para_s_perf_view_upscale_rate) min _maxViewdist);
+		private _maxObjectViewdist = ["para_maxObjectViewdist"] call para_c_fnc_optionsMenu_getValue;
+		setObjectViewDistance (((getObjectViewDistance # 0) + para_s_perf_view_upscale_rate) min _maxObjectViewdist);
 		setViewDistance ((viewDistance + para_s_perf_view_upscale_rate) min _maxViewdist);
 	};
+	
 };
 
 ["perf_auto_view_distance", _script, [], para_s_perf_fps_record_freq] call para_g_fnc_scheduler_add_job;

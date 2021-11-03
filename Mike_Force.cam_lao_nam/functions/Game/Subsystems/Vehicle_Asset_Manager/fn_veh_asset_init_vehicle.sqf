@@ -23,3 +23,4 @@ params ["_id", "_vehicle", ["_firstInit", false]];
 _vehicle setVariable ["vehAssetId", _id];
 [_id] call vn_mf_fnc_veh_asset_add_unlock_action;
 [_id] call vn_mf_fnc_veh_asset_set_idle;
+_vehicle addEventHandler ["RopeAttach", {[_this # 2 getVariable "vehAssetId"] call vn_mf_fnc_veh_asset_unlock_vehicle}];

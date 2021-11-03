@@ -26,14 +26,39 @@ class para_OptionCombobox: para_Option {
 };
 
 class para_CfgOptions {
+    class para_enableDynamicViewDist {
+        name = "Enable dynamic viewdistance settings";
+        tooltip = "Enables all dynamic viewdistance settings, only disable it if you are using your own viewdistance mods";
+        variable = "para_enableDynamicViewDist";
+        type = "Checkbox";
+        default = 1;
+    };
     class para_maxViewDist {
 		name = "Max Viewdistance"; // Display Name
 		variable = "para_maxViewdist"; // Variable name for saving in PFS
 		tooltip = "Max Viewdistance"; // Tooltip
 		type = "Slider";
 		default = 1000;
-		range[] =  { 100, 5000 };
+		range[] =  { 100, 12000 };
 		step = 100;
+	};
+    class para_maxObjectViewDist {
+		name = "Max Object Viewdistance";
+		variable = "para_maxObjectViewdist";
+		tooltip = "Max Object Viewdistance";
+		type = "Slider";
+		default = 800;
+		range[] =  { 100, 12000 };
+		step = 100;
+	};
+    class para_minFpsViewDist {
+        name = "Min FPS viewdistance autoscaler";
+		variable = "para_minFpsViewDist";
+		tooltip = "Min FPS you must reach to keep your current viewdistance value";
+		type = "Slider";
+		default = 20;
+		range[] =  { 0, 240 };
+		step = 10;
 	};
 //     class Test: para_OptionCheckbox {
 //         name = "Test option 1";
