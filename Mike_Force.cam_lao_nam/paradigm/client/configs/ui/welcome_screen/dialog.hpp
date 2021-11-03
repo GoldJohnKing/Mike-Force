@@ -76,7 +76,7 @@ class para_WelcomeScreen {
 
 class para_ChangelogScreen {
     idd = 12022;
-    onLoad = "[_this#0, 'changelog'] call para_c_fnc_welcomeScreenLoad;";
+    onLoad = "[_this#0, 'changelog', [] call para_c_fnc_loadChangelogContent] call para_c_fnc_welcomeScreenLoad;";
     class ControlsBackground {
         class Background: para_Overlay_StructuredText_Background {
             x = para_WelcomeScreen_X;

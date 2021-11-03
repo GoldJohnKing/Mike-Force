@@ -112,6 +112,18 @@ class para_c
 		class show_global_vote {};
 	};
 
+	class tools
+	{
+		PARA_CLIENT_PATH(\tools);		
+		class operate_axe {};
+		class operate_wrench {};
+		class tool_controller_init {};
+		class operate_shovel {};
+		class operate_hammer {};
+
+	};
+
+
 	//////////////////////////
 	///// User Interface /////
 	//////////////////////////
@@ -141,6 +153,7 @@ class para_c
 		class buildingMenu_onPageChange {};
 		class buildingMenu_onSelect {};
 		class buildingMenu_onUpdate {};
+		class buildingMenu_quickBuild {};
 	};
 
 	class infopanel
@@ -163,6 +176,7 @@ class para_c
 	class welcomeScreen
 	{
 		PARA_CLIENT_PATH(\ui\welcome_screen);
+		class loadChangelogContent {};
 		class welcomeScreenLoad {};
 	};
 
@@ -265,5 +279,6 @@ class para_c
 		class zone_marker_show_info;
 		class zone_marker_update_info_position;
 	};
+
 
 };

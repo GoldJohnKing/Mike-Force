@@ -22,7 +22,7 @@ private _capturedZones = (mf_s_zones select {_x select struct_zone_m_captured}) 
 private _activeZones = mf_s_activeZones apply {_x # 0};
 
 {
-	_connectedZones append (getArray (missionConfigFile >> "gamemode" >> "zone_connections" >> _x) apply {_x # 0});
+	_connectedZones append (getArray (missionConfigFile >> "map_config" >> "zones" >> _x) apply {_x # 0});
 } forEach _capturedZones;
 
 _connectedZones = _connectedZones arrayIntersect _connectedZones;

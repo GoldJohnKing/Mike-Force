@@ -230,6 +230,18 @@
         <Original>FOB 5 BAN ME THUOT - ACAV</Original>
         <Chinesesimp>FOB 5 班梅苏奥特 - ACAV</Chinesesimp>
       </Key>
+      <Key ID="STR_vn_mf_respawn_mike_force_khe_sanh">
+        <Original>KHE SANH SF CAMP - MIKE FORCE</Original>
+      </Key>
+      <Key ID="STR_vn_mf_respawn_green_hornets_khe_sanh">
+        <Original>KHE SANH SF CAMP - GREEN HORNETS</Original>
+      </Key>
+      <Key ID="STR_vn_mf_respawn_spike_team_khe_sanh">
+        <Original>KHE SANH SF CAMP - SPIKE TEAM</Original>
+      </Key>
+      <Key ID="STR_vn_mf_respawn_acav_khe_sanh">
+        <Original>KHE SANH SF CAMP - ACAV</Original>
+      </Key>
       <Key ID="STR_vn_mf_supply_officer">
         <Original>Supply Officer</Original>
         <Chinesesimp>军需官</Chinesesimp>
@@ -892,11 +904,6 @@
         <English>[High performance impact] The maximum number of AI the mission will ever have simultaneously.</English>
         <Chinesesimp>[严重影响性能] 任务中能够同时存在的最大AI数量。</Chinesesimp>
       </Key>
-      <Key ID="STR_vn_mf_param_enable_ranks">
-        <Original>==== Enable Rank System [Under Development] ====</Original>
-        <English>==== Enable Rank System [Under Development] ====</English>
-        <Chinesesimp>==== 启用军衔系统 [开发中] ====</Chinesesimp>
-      </Key>
       <Key ID="STR_vn_mf_param_enable_ranks_desc">
         <Original>Restrict vehicles/weapons based on rank. Recommended to reduce griefing.</Original>
         <English>Restrict vehicles/weapons based on rank. Recommended to reduce griefing.</English>
@@ -924,8 +931,7 @@
       </Key>
       <Key ID="STR_vn_mf_buildables_require_vehicles">
         <Original>==== Resupply buildings require vehicles ====</Original>
-        <English>==== Resupply buildings require vehicles ====</Original>
-        <Chinesesimp>==== 需要载具才能建造补给建筑 ====</Chinesesimp>
+        <English>==== Resupply buildings require vehicles ====</English>
       </Key>
       <Key ID="STR_vn_mf_buildables_require_vehicles_desc">
         <Original>Should vehicles be required to build resupply buildings [Not Advised].</Original>
@@ -1020,6 +1026,10 @@
         <English>+Feature: HQ</English>
         <Chinesesimp>+特性: 基地</Chinesesimp>
       </Key>
+      <Key ID="STR_vn_mf_buildingMenu_category_radio">
+        <Original>+Feature: Music</Original>
+        <English>+Feature: Music</English>
+      </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_respawn">
         <Original>+Feature: Respawn</Original>
         <English>+Feature: Respawn</English>
@@ -1081,9 +1091,8 @@
         <Chinesesimp>桥</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_trees">
-        <Original>Bridges</Original>
-        <English>Bridges</English>
-        <Chinesesimp>树</Chinesesimp>
+        <Original>Trees</Original>
+        <English>Trees</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_bunkers">
         <Original>Bunkers</Original>
@@ -1106,9 +1115,8 @@
         <Chinesesimp>直升机停机坪</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_shelters">
-        <Original>Shelters</Original>
-        <English>Shelters</English>
-        <Chinesesimp>遮蔽物</Chinesesimp>
+        <Original>Camp (PAVN)</Original>
+        <English>Camp (PAVN)</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_nv">
         <Original>North Vietnamese</Original>
@@ -1131,9 +1139,8 @@
         <Chinesesimp>洞穴和岩石</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_decorative">
-        <Original>Decorative</Original>
-        <English>Decorative</English>
-        <Chinesesimp>装饰</Chinesesimp>
+        <Original>Misc</Original>
+        <English>Misc</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_lighting">
         <Original>Lighting</Original>
@@ -1146,9 +1153,8 @@
         <Chinesesimp>平台</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_fences">
-        <Original>Fences</Original>
-        <English>Fences</English>
-        <Chinesesimp>围栏</Chinesesimp>
+        <Original>Fences and walls</Original>
+        <English>Fences and walls</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_antennae">
         <Original>Antennae</Original>
@@ -1156,9 +1162,8 @@
         <Chinesesimp>天线</Chinesesimp>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_hootches">
-        <Original>Hootches</Original>
-        <English>Hootches</English>
-        <Chinesesimp>棚屋</Chinesesimp>
+        <Original>Shacks</Original>
+        <English>Shacks</English>
       </Key>
       <Key ID="STR_vn_mf_buildingMenu_category_hangars">
         <Original>Hangars</Original>
@@ -1195,11 +1200,20 @@
         <English>Spiderholes</English>
         <Chinesesimp>战壕(散兵坑)</Chinesesimp>
       </Key>
+      <Key ID="STR_vn_mf_buildingMenu_category_storage">
+        <Original>Storage</Original>
+        <English>Storage</English>
+      </Key>
     </Container>
     <Container name="supplies">
       <Key ID="STR_vn_mf_ammo_supplies">
-        <Original>Ammo Supplies</Original>
-        <Chinesesimp>弹药补给</Chinesesimp>
+        <Original>Light Ammo Supplies</Original>
+      </Key>
+	  <Key ID="STR_vn_mf_support_supplies">
+        <Original>Support Ammo Supplies</Original>
+      </Key>
+	  <Key ID="STR_vn_mf_explosives_supplies">
+        <Original>Explosives Supplies</Original>
       </Key>
       <Key ID="STR_vn_mf_building_supplies_crate">
         <Original>Building Supplies (Small)</Original>

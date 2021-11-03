@@ -36,7 +36,7 @@ if !(_groupID in ["ACAV","GreenHornets","MikeForce","SpikeTeam"]) then{_groupID 
 systemchat str ["team Update - _groupID: ",_groupID];
 vn_tr_groupID = _groupID;
 
-getArray(MissionConfigFile >> "gamemode" >> "settings" >> "teams" >> _groupID) params[["_group_name_full", "ERROR: GROUP NAME FULL"], ["_group_icon", "Vn\ui_f_vietnam\ui\taskroster\img\missionTarget_prev.paa"], ["_group_name", "ERROR: GROUP NAME"]];
+getArray(MissionConfigFile >> "gamemode" >> "settings" >> "teams" >> _groupID) params[["_group_name_full", "ERROR: GROUP NAME FULL"], ["_group_icon", "Vn\ui_f_vietnam\ui\debrief\sticky.paa"], ["_group_name", "ERROR: GROUP NAME"]];
 VN_TR_TEAMNAME_CTRL ctrlSetText _group_name_full;
 VN_TR_TEAMLOGO_CTRL ctrlSetText _group_icon;
 

@@ -59,8 +59,11 @@ if !(_config_prefix isEqualTo "") then
 	_prefix = _config_prefix;
 };
 
+// To avoid damaging old saves when this only ran on cam_lao_nam
+private _worldName = [worldName + "_", ""] select ( worldName isEqualTo "cam_lao_nam" );
+
 // format final variable keyname from prefix and keyname
-_finalKeyName = _prefix + _keyName;
+_finalKeyName = _prefix + _worldName + _keyName;
 
 _allVariables = (parsingNamespace getVariable ["allProfileNamespaceVars",[]]) select {_x find _prefix == 0};
 

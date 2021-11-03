@@ -35,8 +35,9 @@ mf_s_dir_action_fired = true; //Mark it as dispatched, so we reset back to a new
 //If none can be opened, we're at game start - need to open one manually.
 if (mf_s_activeZones isEqualTo []) then 
 {
-	["zone_ba_ria"] call vn_mf_fnc_director_open_zone;
-	["zone_ban_hoang"] call vn_mf_fnc_director_open_zone;
+	{
+		[_x] call vn_mf_fnc_director_open_zone;
+	} forEach (getArray (missionConfigFile >> "map_config" >> "starting_zones"));
 };
 
 ["gameplay_director", vn_mf_fnc_director_job, [], 15] call para_g_fnc_scheduler_add_job;

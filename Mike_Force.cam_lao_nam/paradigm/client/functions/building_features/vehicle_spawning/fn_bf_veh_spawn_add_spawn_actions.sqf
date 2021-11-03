@@ -30,10 +30,11 @@ private _vehicleConfigs = "getText(_x >> 'side') in ['',_buildingSide]" configCl
 
 {
 	private _vehicleConfig = _x;
+	private _vehicleIcon = getText (_vehicleConfig >> "icon");
 	[
 		_buildingObject,
 		{[_this getVariable ["para_g_building", objNull]] call para_g_fnc_building_is_functional},
-		"",
+		_vehicleIcon,
 		"",
 		[_buildingObject, _vehicleConfig],
 		getText (configFile >> "CfgVehicles" >> configName _vehicleConfig >> "displayName"),

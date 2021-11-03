@@ -193,6 +193,11 @@ class para_g
 		class vehicle_will_collide_at_pos {};
 		class unit_is_incapacitated {};
 	};
+	class tools
+	{
+		PARA_GLOBAL_PATH(\tools);
+		class is_valid_axe_target {};
+	};
 };
 
 #endif

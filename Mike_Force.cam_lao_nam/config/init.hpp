@@ -31,6 +31,11 @@
 #include "hints.hpp"
 // Welcome screen shown on join
 #include "welcome_screen.hpp"
+// Changelog
+#include "changelog.hpp"
+
+// Include map-specific config
+#include "..\map_config\init.hpp"
 
 // load profile namespace variables for runtime use
 __EXEC(allProfileNamespaceVars = allVariables profileNamespace);

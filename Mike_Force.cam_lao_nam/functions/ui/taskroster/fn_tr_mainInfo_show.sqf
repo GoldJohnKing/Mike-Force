@@ -21,7 +21,7 @@ disableSerialization;
 VN_TR_MAININFO_CTRL ctrlShow true;
 
 _groupID = groupID group player;
-getArray(MissionConfigFile >> "gamemode" >> "settings" >> "teams" >> _groupID) params[["_group_name_full", "ERROR: GROUP NAME FULL"], ["_group_icon", "Vn\ui_f_vietnam\ui\taskroster\img\missionTarget_prev.paa"], ["_group_name", "ERROR: GROUP NAME"]];
+getArray(MissionConfigFile >> "gamemode" >> "settings" >> "teams" >> _groupID) params[["_group_name_full", "ERROR: GROUP NAME FULL"], ["_group_icon", "Vn\ui_f_vietnam\ui\debrief\sticky.paa"], ["_group_name", "ERROR: GROUP NAME"]];
 VN_TR_MAININFO_IMG_CTRL ctrlSetText _group_icon;
 _group_name_bold = format["<t align='center' font='tt2020base_vn_bold'>%1</t>", _group_name];
 VN_TR_MAININFO_TXT_TOP_CTRL ctrlSetStructuredText parsetext format[localize "STR_vn_mf_taskRoster_Main_teamWelcome", _group_name_bold];

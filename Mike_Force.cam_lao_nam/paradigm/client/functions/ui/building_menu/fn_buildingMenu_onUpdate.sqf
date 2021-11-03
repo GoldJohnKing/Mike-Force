@@ -158,7 +158,7 @@ if !((count _shown) isEqualTo 0) then {
 		];
 		if (_class isEqualTo _data) then { _indexSel = _index };
 		_tableControl ctSetData [_index, _class];
-		_pictureCtrl ctrlSetText ([_icon, "\vn\ui_f_vietnam\ui\taskroster\img\missionTarget_prev.paa"] select (_icon isEqualTo ""));
+		_pictureCtrl ctrlSetText ([_icon, "\vn\ui_f_vietnam\ui\debrief\sticky.paa"] select (_icon isEqualTo ""));
 		_nameCtrl ctrlSetStructuredText (parseText format ["<t color='#000000'>%1</t>", _name]);
 	};
 
@@ -202,7 +202,10 @@ if !(_data isEqualTo "") then {
 	private _supplyTypeName = localize (format ["STR_para_supply_%1", _supplyType]);
 
 	private _conditionsPre = getArray (_config >> "conditions");
-	private _conditions = _conditionsPre apply { [_x#0, (call compile (_x#1))] };
+	
+	// Variables
+	private _pos = getPos player;
+	private _conditions = _conditionsPre apply {[_x#0, (call compile (_x#1))] };
 
 	_text = _text + (_conditions apply {
 		_x params ["_name", "_checked"];
@@ -246,10 +249,10 @@ if !(_data isEqualTo "") then {
 		_texture spawn {
 			uiSleep diag_deltaTime;
 			private _picture = uiNamespace getVariable ['#para_c_BuildingMenu_Picture', controlNull];
-			_picture ctrlSetText ([_this, "\vn\ui_f_vietnam\ui\taskroster\img\missionTarget_prev.paa"] select (_this isEqualTo ""));
+			_picture ctrlSetText ([_this, "\vn\ui_f_vietnam\ui\debrief\sticky.paa"] select (_this isEqualTo ""));
 		};
 	} else {
-		_picture ctrlSetText ([_texture, "\vn\ui_f_vietnam\ui\taskroster\img\missionTarget_prev.paa"] select (_texture isEqualTo ""));
+		_picture ctrlSetText ([_texture, "\vn\ui_f_vietnam\ui\debrief\sticky.paa"] select (_texture isEqualTo ""));
 	};
 
 	private _canBuild = !(false in (_conditions apply { _x#1 }));

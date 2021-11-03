@@ -1,7 +1,9 @@
+#include "\a3\ui_f\hpp\definedikcodes.inc"
+
 //--- Key down actions:
 class vn_mf_keydown_escape_action
 {
-	defaultKey = 1;
+	defaultKey = DIK_ESC;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -12,7 +14,7 @@ class vn_mf_keydown_escape_action
 };
 class para_keydown_open_wheel_menu
 {
-	defaultKey = 7;
+	defaultKey = DIK_6;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -23,7 +25,7 @@ class para_keydown_open_wheel_menu
 };
 class para_vote_1
 {
-	defaultKey = 59;
+	defaultKey = DIK_F1;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -34,7 +36,7 @@ class para_vote_1
 };
 class para_vote_2
 {
-	defaultKey = 60;
+	defaultKey = DIK_F2;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -45,7 +47,7 @@ class para_vote_2
 };
 class para_vote_3
 {
-	defaultKey = 61;
+	defaultKey = DIK_F3;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -56,7 +58,7 @@ class para_vote_3
 };
 class vn_mf_interactionOverlay_toggle
 {
-	defaultKey = 8; // 7
+	defaultKey = DIK_7; // 7
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -70,7 +72,7 @@ class vn_mf_interactionOverlay_toggle
 //--- Key up actions:
 class vn_mf_debug_monitor_action
 {
-	defaultKey = 41;
+	defaultKey = DIK_GRAVE;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -81,7 +83,7 @@ class vn_mf_debug_monitor_action
 };
 class vn_mf_task_roster_action
 {
-	defaultKey = 35;
+	defaultKey = DIK_H;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
@@ -92,12 +94,23 @@ class vn_mf_task_roster_action
 };
 class vn_mf_build_mode_action_up
 {
-	defaultKey = 49;
+	defaultKey = DIK_N;
 	shift = "false";
 	ctrl = "false";
 	alt = "false";
 	function = "para_c_fnc_toggle_buildmode";
 	down = 0;
 	displayName = $STR_vn_mf_keybindings_build_mode;
+	access = 1;
+};
+class vn_mf_quick_build
+{
+	defaultKey = DIK_N;
+	shift = "false";
+	ctrl = "true";
+	alt = "false";
+	function = "para_c_fnc_buildingMenu_quickBuild";
+	down = 0;
+	displayName = "Quick Build /loc";
 	access = 1;
 };

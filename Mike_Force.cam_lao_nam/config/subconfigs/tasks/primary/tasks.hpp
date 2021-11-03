@@ -43,7 +43,7 @@ class build_fob : task
 	tasktitle = "Build FOB";
 	taskname = "Build FOB";
 	taskdesc = "Build an FOB to begin claiming zones within %1ms of it.";
-	taskformatdata = "[mf_s_baseZoneUnlockDistance]"
+	taskformatdata = "[mf_s_baseZoneUnlockDistance]";
 	tasktype = "repair";
 	taskimage = "vn\missions_f_vietnam\data\img\mikeforce\p\vn_ui_mf_task_p1.jpg";
 	rankpoints = 10;

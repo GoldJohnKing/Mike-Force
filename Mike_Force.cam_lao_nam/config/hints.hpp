@@ -69,7 +69,7 @@ class CfgHints
 		class Bases {
 			displayName = "FOBs";
 			displayNameShort = "Starting FOBs";
-			description = "Situation rooms are the heart of an FOB. They connect all of the surrounding buildings to a single supply pool, and enable the building of FOB specific structures. Most of the building you do should be part of an FOB! <br/><br/>To build a situation room, open the build menu with the N key (default) and then select 'Feature: HQ' as a category. Building an FOB near to existing structures will automatically make them part of the FOB."
+			description = "Situation rooms are the heart of an FOB. They connect all of the surrounding buildings to a single supply pool, and enable the building of FOB specific structures. Most of the building you do should be part of an FOB! <br/><br/>To build a situation room, open the build menu with the N key (default) and then select 'Feature: HQ' as a category. Building an FOB near to existing structures will automatically make them part of the FOB.";
 			image = "\vn\ui_f_vietnam\ui\mikeforce\survivalcards\situation_room.paa";
 		};
 		

@@ -22,7 +22,6 @@
 
 params ["_building", "_progressChange", ["_updateObjects", true]];
 
-
 private _oldProgress = _building getVariable ["para_g_build_progress", 0];
 private _newProgress = (_oldProgress + _progressChange) min 1 max 0;
 _building setVariable ["para_g_build_progress", _newProgress, true];

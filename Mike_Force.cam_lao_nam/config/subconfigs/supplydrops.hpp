@@ -35,6 +35,7 @@ class FoodSupplies
 	name = "STR_vn_mf_food_supplies";
 	className = "vn_b_ammobox_supply_02";
 	icon = "\vn\ui_f_vietnam\ui\wheelmenu\img\icons\vn_ico_mf_sup_food_ca.paa";
+	//crateName = "FoodCrate";
 };
 
 class MedicalSupplies
@@ -42,11 +43,27 @@ class MedicalSupplies
 	name = "STR_vn_mf_medical_supplies";
 	className = "vn_b_ammobox_supply_03";
 	icon = "\vn\ui_f_vietnam\ui\wheelmenu\img\icons\vn_ico_mf_sup_med_ca.paa";
+	crateConfig = "MedicalCrate";
 };
 
-class AmmoSupplies
+class LightAmmoSupplies
 {
 	name = "STR_vn_mf_ammo_supplies";
 	className =	"vn_b_ammobox_supply_01";
 	icon = "\vn\ui_f_vietnam\ui\wheelmenu\img\icons\vn_ico_mf_sup_ammo_ca.paa";
+	crateConfig = "AmmoCrateLight";
+};
+class SupportSupplies
+{
+	name = "STR_vn_mf_support_supplies";
+	className =	"vn_b_ammobox_supply_01";
+	icon = "\vn\ui_f_vietnam\ui\wheelmenu\img\icons\vn_ico_mf_sup_ammo_ca.paa";
+	crateConfig = "AmmoCrateSupport";
+};
+class ExplosivesSupplies
+{
+	name = "STR_vn_mf_explosives_supplies";
+	className =	"vn_b_ammobox_supply_01";
+	icon = "\vn\ui_f_vietnam\ui\wheelmenu\img\icons\vn_ico_mf_sup_ammo_ca.paa";
+	crateConfig = "AmmoCrateExplosives";
 };

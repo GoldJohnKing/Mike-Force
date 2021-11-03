@@ -98,7 +98,7 @@ private _fnc_considerAttack = {
 	//Launch if zone is weak, and too many players in zone.
 	if ((_infantryStrength > 0) && (_infantryStrength <= 0.3) && (count (allPlayers inAreaArray _zoneMarker) > 0)) then {
 		//Possible origin zones
-		private _connectedZones = getArray (missionConfigFile >> "zone_connections" >> _zoneMarker) apply {_x select 0};
+		private _connectedZones = getArray (missionConfigFile >> >> "map_config" >> "zones" >> _zoneMarker) apply {_x select 0};
 		private _possibleOrigins = _connectedZones select {
 			private _data = missionNamespace getVariable _x;
 			!(_data select struct_zone_m_captured)

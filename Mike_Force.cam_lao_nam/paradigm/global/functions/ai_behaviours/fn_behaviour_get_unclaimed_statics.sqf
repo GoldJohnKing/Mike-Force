@@ -2,7 +2,7 @@
     File: fn_behaviour_get_unclaimed_statics.sqf
     Author: Spoffy
     Date: 2020-07-04
-    Last Update: 2020-07-04
+    Last Update: 2021-09-08
     Public: No
     
     Description:
@@ -26,7 +26,10 @@ private _staticSearchRadius = _group getVariable ["behaviourHoldRadius", 20];
 //Look for statics that aren't claimed and don't have a gunner (in case another mod/script has mounted the gun)
 _pos nearEntities ["StaticWeapon", _staticSearchRadius] 
     select {
-        ([_x, "claimedBy", [grpNull, 0]] call para_g_fnc_ai_public_var_get)
-            params [["_claimingGroup", grpNull], ["_claimEndTime", 0]];
-        !(alive gunner _x) && (isNull _claimingGroup || serverTime > _claimEndTime)
+        //Checks if the static is not attached to something nor hidden (to prevent AI getting in statics loaded in vehicles)
+        if (isNull attachedTo _x && !isObjectHidden _x) then {
+            ([_x, "claimedBy", [grpNull, 0]] call para_g_fnc_ai_public_var_get)
+                params [["_claimingGroup", grpNull], ["_claimEndTime", 0]];
+            !(alive gunner _x) && (isNull _claimingGroup || serverTime > _claimEndTime)
+        };  
     }

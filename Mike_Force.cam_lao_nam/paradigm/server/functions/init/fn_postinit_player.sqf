@@ -25,8 +25,11 @@ params ["_player", "_didJIP"];
 diag_log format ["Paradigm: Player postinit - %1 - %2", _player, getPlayerUID _player];
 
 private _owner = remoteExecutedOwner;
-if (_owner == 0 || owner _player == 0 || owner _player != remoteExecutedOwner) exitWith {
-	diag_log format ["Paradigm: Aborting player postinit, as player object is unowned - %1", _player];
+private _checkHC = (typeOf _player == "HeadlessClient_F");
+if (!_checkHC) then {
+	if (_owner == 0 || owner _player == 0 || owner _player != remoteExecutedOwner) exitWith {
+		diag_log format ["Paradigm: Aborting player postinit, as player object is unowned - %1", _player];
+	};
 };
 
 private _fnc_playerPostInitServer = compile preprocessFile "para_player_postinit_server.sqf";
